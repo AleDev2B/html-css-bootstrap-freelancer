@@ -6,6 +6,7 @@
   font-size: 1rem;
   line-height: 1.5;
   text-align: center;
+  color: #fff!important;
 }
 /* IMPOSTAZIONI BASE CONTAINER */
 .container{
@@ -38,7 +39,6 @@ header .container-fluid{
 [class*=col-]{
   font-size: 4rem;
   line-height: 3.5rem;
-  
 }
 /* IMPOSTAZIONI TEXT DIVIDER CON STELLA FONTAWESOME */
 
@@ -56,6 +56,40 @@ header .container-fluid{
 
   .divider-custom .divider-custom-line{
     width: 100%;
-max-width: 7rem;
-height: .25rem;
+    max-width: 7rem;
+    height: .25rem;
   }
+
+  [class*=photo-portfolio]{
+    height: 252px;
+    width: 350px;
+  }
+
+.about{
+  background-color: #19BC9B;
+}
+
+.about .row{
+  line-height: 1.5;
+}
+
+.row .col-md-6 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+p.lead{
+  text-align: left;
+}
+.contactme{
+
+}
+.form-group{
+  text-align: left;
+  width: 50%;
+  margin-left: 250px;
+}
+
+footer{
+  background-color: #2C3E50;
+}
